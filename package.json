@@ -4,7 +4,7 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ SubgraphKing/King-ERC20",
+    "deploy": "graph deploy crazyrabbitltc/wrapped-eth --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ ",
     "create-local": "graph create --node http://localhost:8020/ SubgraphKing/King-ERC20",
     "remove-local": "graph remove --node http://localhost:8020/ SubgraphKing/King-ERC20",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 SubgraphKing/King-ERC20"
